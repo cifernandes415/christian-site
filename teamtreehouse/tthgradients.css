@@ -1,0 +1,11 @@
+/* ------------------------
+	Linear Gradients
+--------------------------- */
+
+.box {
+	width: 100%;
+	height: 500px;
+	margin: 100px auto;
+
+	background: -webkit-repeating-radial-gradient(0 0, circle, rgba(58,122,187,.8),rgba(43, 79,115,.85) 100px);
+}

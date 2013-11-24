@@ -1,0 +1,196 @@
+/* header starts here */
+
+* { 
+	padding:0px;
+	margin:0px;
+}
+
+.left { float:left; }
+
+.right { float:right; }
+
+.button { }
+
+
+
+/*----BOX MODEL---*/
+
+section.search { 
+	background-color: red;
+	width: 75%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 100px;
+	padding: 10px;
+
+}
+
+section.search a { 
+	display: block;
+}
+
+section.search img { 
+	width: 100%;
+}
+
+.small { font-size:12px;}
+
+div#form { width: 100%; }
+
+div#form input { width: 100%; }
+
+div.buttons { 
+	width: 50%;
+	background: blue;
+	margin-left: auto;
+	margin-right: auto;
+	overflow: hidden;
+}
+
+div.buttons button { 
+	width: 45%;
+}
+
+
+
+footer { 
+	clear: both;
+	position: absolute;
+	background-color: pink;
+	bottom: 0;
+	width: 100%;
+	height:50px;
+}
+
+footer ul { 
+	list-style: none; 
+	overflow: hidden;
+}
+
+footer ul li { 
+	display: inline; 
+	background-color: gray;
+	padding:10px;
+}
+
+
+
+/*--- Navigation Bar & Header ---*/
+
+nav {
+	width: 100%;
+	height: 25px;
+	background-color: black;
+	display: block 100%;
+	clear: both;
+	margin: 0px;
+	padding: 5px;
+}
+
+nav ul {
+	border: solid;
+	width: 100%;	
+}
+
+nav ul li {
+	font-family: arial;
+	font-weight: bold;
+	font-size: 15px;
+	margin: 0;
+	padding-top: 2px;
+	background-color: black;
+	color: grey;
+	border-bottom: 2px solid black;
+	box: solid black;
+	text-align: center;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	float: left;
+	width: 5%;
+}
+
+
+
+
+
+
+
+
+
+
+/*--- Google Logo section ---*/
+/*
+#googleicon {
+	height:10px; 
+	width:10px;
+	margin: 18% 25% 15% 30%;
+	text-align: right;
+	position: static;
+	clear:both;
+}
+*/
+/*--- Search Icon ---*/
+/*#search {
+	margin-top: 0x;
+  	padding-left: 25%;
+  	clear: both;
+
+}
+
+.searchicon {
+	top: 50px;
+	left: 100px;
+	position: fixed;
+  	
+}*/
+
+
+/*--- Bottons bellow search bar ---*/
+/*.bottonleft {
+	height: 50px;
+    width: 120px;
+    border: solid;
+    border-color: black;
+    background: grey;
+    border-radius: 5px;
+    border-width: 100px;
+    margin: auto;
+    text-align: center;
+}
+
+.bottonright {
+	height: 50px;
+	width: 70px;
+	border: solid;
+}
+*/
+
+
+/*--- Footer section ---*/
+/*#footer {
+	color: #f2f2f2;
+	display: block 100%;
+	border-width: 1px grey;
+}
+
+#footerleft {
+	display: inline-block;
+	background: ;
+	border-top: ;
+	line-height: 10px;
+	min-width: 930px;
+	padding: 0 30px;
+	padding-right: px;
+	padding-bottom: 0px;
+	padding-left: 30px;
+}
+
+#footerright {
+	display: inline-block;
+	float: right;
+	color: pink;
+}
+
+*/
+

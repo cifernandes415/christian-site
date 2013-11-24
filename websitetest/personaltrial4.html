@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<!--[if IE 8]> 				 <html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> 
+
+<html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width">
+<title>Page Title</title>
+
+<style type="text/css">
+
+/*---navegation bar---*/
+body {
+	background-image:url("http://www.twitterevolutions.com/bgs/red-bricks-twitter-background.jpg")
+}
+	a:link {padding-bottom:20px; font-size: 18px; font-family: Arial, serif; color:white; text-decoration: none; }
+	a:hover {color:white; text-decoration: none; }
+	a:visited {color: white;}
+
+
+	.navboxwords {
+		display: block;
+		background-color:blue;
+		color: white;
+		float: left;
+		width: 20px;
+		min-width: 20px;
+		height: 850px;
+		margin-top:0px;
+		margin-left: 65px; 
+		padding-top: 0px;
+		border-radius: 5px;
+			-webkit-border-radius: 5px;
+			-moz-border-radius: 5px;
+	}	
+
+	.navboxwords li {
+		display: block;
+		margin: 0px;
+		padding: 40px;
+		width: 5%;
+		min-width:5%;
+		line-height: 20px;	
+	}
+
+/*-----------  Main Container  -----------*/
+		.maincontainer {
+			display: inline;
+			background-color:black;
+			float: right;
+			width: 850px;
+			height: 850px;
+			margin-top:0px;
+			margin-right: 200px; 
+			padding-left: 150px;
+			padding-right: 100px;
+			border-radius: 5px;
+				-webkit-border-radius: 5px;
+				-moz-border-radius: 5px;
+		}
+
+		.mainbasecontainer {
+			display: inline;
+			background-color:#434446;
+			float: right;
+			width: 750px;
+			height: 750px;
+			margin-top:45px;
+			margin-right: 180px; 
+			
+			border-radius: 5px;
+				-webkit-border-radius: 5px;
+				-moz-border-radius: 5px
+		}
+		h2,
+		h3 {
+			margin-left:  20px;
+			margin-bottom: 12px;
+		}
+
+		.form label {
+			margin-left: 10px;
+			color: #003333;
+		}
+		input, textarea {
+			background-color:#2d2e2f;
+			padding: 10px;
+			margin-left:  50px;
+			border: 1px solid #E5E5E5;
+			width: 625px;
+			color: #999999;
+			box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 5px;
+			-moz-box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 5px;
+			-webkit-box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 5px;
+			border-radius: 4px;
+			-moz-border-radius: 4px;
+			-webkit-border-radius: 4px;			
+		}
+
+		textarea {
+			margin-left:  50px;
+			width: 625px;
+			max-width: 625px;
+			height: 150px;
+			line-height: 18px;
+			border-radius: 4px;
+			-moz-border-radius: 4px;
+			-webkit-border-radius: 4px;	
+		}
+
+		input:hover, textarea:hover,
+		input:focus, textarea:focus {
+			border-color: 1px solid blue;
+			box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 5px;
+			-moz-box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 5px;
+			-webkit-box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 5px;
+			border-radius: 4px;
+			-moz-border-radius: 4px;
+			-webkit-border-radius: 4px;		
+		}
+
+
+		.send input {
+			width: 100px; 
+			height: 40px;
+			background-color: #2d2e2f; 
+			color: #FFF;
+			border-radius: 4px;
+			-moz-border-radius: 4px;
+			-webkit-border-radius: 4px;		
+		}
+
+/*---------------Animation of Bars-------------*/
+
+.navboxwords li:hover {
+    left:20px;
+    position:relative;
+    transition: left .4s linear;
+    -webkit-transition: left .4s linear;
+    -moz-transition: left .4s linear;
+}
+
+/*--------------- End of Animaiton --------------*/
+</style>
+
+
+
+
+</head>
+
+<body>
+	<div class="navbox">
+		<ul class="navboxwords">
+			<li><a href="personaltrial.html#work">Home</a></li>
+			<li><a href="personaltrial2.html#work">Work</a></li>
+			<li><a href="personaltrial3.html#work">About</a></li>
+			<li><a href="personaltrial4.html#work">Contact</a></li>
+		</ul>	
+	</div>
+
+	<div class="maincontainer">
+		<div class="mainbasecontainer">
+			<h2>Contact & Connect</h2>
+						<form class="form">
+							<p class="name">
+								<label for="name"><h3>What do they call you?</h3></label>
+								<input type="text" name="name" id="name" placeholder="Name" />
+							</p>
+							
+							<p class="email">
+								<label for="email"><h3>No snail mail!</h3></label>
+								<input type="text" name="email" id="email" placeholder="Email" />
+							</p>
+							
+							<p class="web">
+								<label for="web"><h3>Where can I find you on the world wide web?</h3></label>
+								<input type="text" name="web" id="web" placeholder="Web Address" />
+							</p>		
+						
+							<p class="text">
+								<label for="web"><h3>Whats on your mind?</h3></label>
+								<textarea name="text" placeholder="Comments, Questions, Messages"></textarea>
+							</p>
+							
+							<p class="send">
+								<input type="submit" value="Deliver"/>
+							</p>
+						</form>
+		</div>
+	</div>
+
+</body>
+
+</html>

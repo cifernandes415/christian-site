@@ -1,0 +1,28 @@
+body {
+	background-color: #cadde5;
+	padding: 40px	
+}
+
+h1 {
+	Color: blue;
+	font-size: 40px
+}
+
+h2 {
+	color: pink
+}
+
+p {
+	color: white;
+	padding: 10px;
+	background-color:#4b8bc1;
+}
+
+h1 span {
+	color: purple;
+}
+
+p span {
+	color: black;
+	font-weight: bold;
+}

@@ -1,0 +1,10 @@
+
+.main {
+	-webkit-column-count: 3;
+	-webkit-column-gap: 3em;
+	-webkit-column-rule: 2px dotted red;
+
+	-webkit-column-width: 250px;
+	-webkit-count: 250px 3;
+}
+

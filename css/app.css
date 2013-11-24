@@ -1,0 +1,195 @@
+/* GLOBAL styles */
+
+* { 
+	padding:0px;
+	margin:0px;
+}
+
+h1,h2,h3,h4,h5,h6 { 
+
+}
+
+h1 { }
+h2 { }
+h3 { }
+
+p { }
+
+ul { }
+
+li { }
+
+.panel { 
+
+}
+
+.copy { }
+
+.image { }
+
+
+/* END */ 
+
+
+/* --- START <header> --- */
+
+header { 
+	width:100%;
+	background-color:red;
+	height:100px;
+}
+
+header .left {
+	font-size: 30px;
+	font-family: Times;
+	color: white; 
+	width: 50%;
+	float: left;
+
+}
+
+header .right { 
+	float: right;
+}
+
+header nav { 
+	clear:both;
+	display: block;
+}
+
+header nav ul {
+	border
+	width:75%;
+	margin-right: auto;
+	margin-left:auto;
+	
+}
+
+header nav li {
+	color: white;
+	border-bottom: 2px solid black;
+	box-shadow: 1px solid grey;
+	display: block;
+	background-color: #b60002;
+	text-align: center;
+	margin: auto;
+	display: inline;
+	float: left;
+	width: 10%;
+}
+
+/* --- END <header> --- */
+
+
+
+/* START .featured-story */
+
+section.body { 
+	background: gray;
+}
+
+section.left { 
+	background: purple;
+}
+
+/* This is my positioning code for the featured section */
+
+section.left .panel { 
+
+}
+
+section.left article.panel div.featured-story { 
+
+}
+
+section.left article.panel div.featured-story div.image { 
+
+}
+
+section.left article.panel div.featured-story div.copy { 
+
+}
+
+/* END */
+
+
+
+/* START .the-latest */
+
+section.left aside.the-latest { 
+
+}
+
+/* END */
+
+
+/* START .breaking-news */
+
+section.left article.breaking-news { 
+
+}
+
+section.left article.breaking-news .panel { 
+
+}
+
+section.left article.breaking-news .panel .copy { 
+
+}
+
+section.left article.breaking-news .panel .image { 
+
+}
+
+/* END */
+
+
+/* START RIGHT SIDE */
+
+section.right { 
+	background: magenta;
+}
+
+section.right .ads { }
+
+/* END */
+
+
+
+/* START Footer */ 
+
+footer { 
+	background: pink;
+}
+
+footer ul { }
+
+footer li { }
+
+
+
+
+
+
+
+/* ------- STYLES ---------- */ 
+
+
+/* Styles */ 
+
+article h2 {
+	text-align: center;
+	float: left;
+}
+
+article h1 {
+	text-align: center;
+	float: left;
+
+}
+aside {
+	float: left;
+}
+
+
+

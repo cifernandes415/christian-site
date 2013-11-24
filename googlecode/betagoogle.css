@@ -1,0 +1,128 @@
+* {
+ padding: 0px;
+ margin: 0px;
+}
+
+.left {
+	float: left;
+}
+
+.right {
+	float: right;
+}
+
+/*--- nav bar & header ---*/
+
+header {
+	width: 100%;
+	margin-top: 0px;
+	display: block;
+}
+
+body {
+	margin-top: 0px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+nav {
+	background-color: black;
+	border: none;
+	width: 100%;
+	height: 100%;
+	margin: 0px;
+	padding: 5px;
+}
+
+nav ul {
+	border: solid black;
+	width: 100%;
+}
+
+nav ul li {
+	background-color: black;
+	border-color: black;
+	font-weight: bold;
+	font-family: arial;
+	font-size: 14px;
+	display: inline;
+	padding-left: 10px;
+	color: white;
+	margin: 0px;
+	text-align: center;
+	margin-right: auto; 
+	margin-left: auto;
+	clear: both;
+	list-style: none;
+	padding: 4px;
+	width: 5%;
+}
+
+
+section {
+	background-color: red;
+	width: 75%;
+	margin-top: 0px;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+	padding: 10%;
+}
+
+div {
+	width: 100%;
+}
+
+div input {
+	width: 100%;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.searchbox {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+div.bottons {
+	margin-top: 5px;
+	width: 100%;
+	background-color: blue;
+	margin-left: auto;
+}
+
+div.bottonleft {
+	float: left;
+}
+
+div.bottonright {
+	float: right;
+}
+
+footer {
+	background-color: red;
+	display: inline;
+	width: 100%;
+	bottom: 0px;
+	height: 50px;
+	clear: both;
+	position: absolute;
+}
+
+footer.left {
+	text-align: center;
+}
+
+footer.right {
+	list-style: none;
+}
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Christian Ferdandes</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        
+        <link rel="stylesheet" type="text/css" href="css/animate.css">
+
+        <style type="text/css">
+            * { padding:0; margin:0; }
+            .wrapper { }
+
+            body { overflow: hidden; }
+
+            .navigation { 
+                z-index: 100;
+                position: absolute;
+                top:10px;
+                left:10px;
+            }
+
+            .viewport { 
+                position: absolute;
+                background-color:black; 
+            }
+
+            .home { 
+                position: absolute;
+                background-color:red; 
+            }
+
+            .projects { 
+                position: absolute;
+                background-color:blue;
+            }
+            
+            .about { 
+                position: absolute;
+                background-color:green; 
+            }
+            
+            .contact { 
+                position: absolute;
+                background-color:pink; 
+            }
+
+/*---------Free Play---------*/
+
+
+            /* new code */
+
+        </style>
+    </head>
+    <body>
+
+    <div class="navigation">
+        <ul>
+            <li class="homeBtn">Home</li>
+            <li class="projectsBtn">Projects</li>
+            <li class="aboutBtn">About</li>
+            <li class="contactBtn">Contact</li>
+        </ul>        
+    </div>
+
+    <div class="viewport">
+        <div class="home"></div>
+        <div class="projects"></div>
+        <div class="about"></div>
+        <div class="contact"></div>
+    </div>
+
+    <script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
+
+    <script type="text/javascript">
+        $(document).ready(function() { 
+            
+            $(window).bind('load resize', function () {
+
+                var windowHeight = $(window).height();
+                var windowWidth = $(window).width();
+
+                console.log(windowHeight);
+
+
+                $(".homeBtn").click(
+                    function() { 
+                        console.log("clicked");
+
+                        $(".viewport").css({
+                            'left': 0,
+                            'top':0
+                        });
+                    }
+                );
+
+                $(".projectsBtn").click(
+                    function() { 
+                        console.log("clicked");
+
+                        $(".viewport").css({
+                            'left': -windowWidth,
+                            'top':0,
+                        });
+
+                    }
+                );
+
+                $(".aboutBtn").click(
+                    function() { 
+                        console.log("clicked");
+
+                        $(".viewport").css({
+                            'left': 0,
+                            'top':-windowHeight,
+                        });
+                    }
+                );
+
+
+                $(".contactBtn").click(
+                    function() { 
+                        console.log("clicked");
+
+                        $(".viewport").css({
+                            'left': -windowWidth,
+                            'top':-windowHeight,
+                            'z-index': 50
+                        });
+                    }
+                );
+
+
+                //defaults to homepage on document load
+                $("body").css({
+                    'height': windowHeight,
+                    'width': windowWidth
+                });
+
+                $(".viewport").css({
+                    'width': windowWidth * 2,
+                    'height': windowHeight * 2,
+                    'top': 0,
+                    'left': 0
+                });
+
+                $(".home").css({
+                    'height': windowHeight,
+                    'width': windowWidth,
+                    'top': 0,
+                    'left': 0
+                });
+
+
+                $(".projects").css({
+                    'height': windowHeight,
+                    'width': windowWidth,
+                    'top': 0,
+                    'left':windowWidth
+                });
+
+
+                $(".about").css({
+                    'height': windowHeight,
+                    'width': windowWidth,
+                    'top':windowHeight,
+                    'left': 0
+                });
+
+
+                $(".contact").css({
+                    'height': windowHeight,
+                    'width': windowWidth,
+                    'top': windowHeight,
+                    'left' :windowWidth
+                });
+
+
+
+
+            });
+
+
+
+        });
+
+    </script>
+
+    </body>
+</html>

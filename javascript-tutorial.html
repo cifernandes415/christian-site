@@ -1,0 +1,21 @@
+
+//waits for html document to be ready and then executes function
+
+$(document).on("ready", function(){ 
+
+	// var mean variable storing the object id links in a variable called link
+
+	var link = $("#link");
+
+	// when link is clicked, it executes a function only when the document is ready
+
+	link.on("click", function() { 
+		
+		// when link is clicked, the css for the link object is changed to 'display:block'
+		link.css({
+			display:block
+		});
+
+	});
+
+});
