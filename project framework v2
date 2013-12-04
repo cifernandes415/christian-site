@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Christian Ferdandes</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        
+        <link rel="stylesheet" type="text/css" href="css/animate.css">
+
+        <style type="text/css">
+
+* {
+    background-color: grey;
+}
+    .primaryContainer {
+        height: auto;
+        margin-left: auto;
+        margin-right: auto;
+        min-height: 100%;
+        width: 90%;
+
+    #box {
+        float: left;
+        height: 209px;
+        margin-left: 0.10073664%;
+        margin-top: 12px;
+        clear: none;
+        width: 23.098596%;
+        background-color: rgb(114, 39, 39);
+        }
+
+    #box1 {
+        float: left;
+        height: 229px;
+        margin-left: 8.532708%;
+        margin-top: 13px;
+        clear: none;
+        width: 36.532771%;
+        background-color: rgb(185, 11, 11);
+        }
+
+    #box2 {
+        float: left;
+        height: 188px;
+        margin-left: 0%;
+        margin-top: 33px;
+        clear: none;
+        width: 31.70056%;
+        background-color: rgb(20, 0, 255);
+        }
+
+    #box3 {
+        float: left;
+        height: 507px;
+        margin-left: 7.331738%;
+        margin-top: 11px;
+        clear: both;
+        width: 8.535856%;
+        background-color: rgb(0, 216, 255);
+        }
+
+    #box4 {
+        float: left;
+        height: 188px;
+        margin-left: 15.85815%;
+        margin-top: 61px;
+        clear: none;
+        width: 31.733615%;
+        background-color: rgb(20, 0, 255); 
+        }
+
+    #box5 {
+        float: left;
+        height: 229px;
+        margin-left: -0.02361015%;
+        margin-top: 38px;
+        clear: none;
+        width: 36.532771%;
+        background-color: rgb(185, 11, 11);
+        }
+
+    #box6 {
+        float: left;
+        height: 229px;
+        margin-left: -68.267959%;
+        margin-top: 309px;
+        clear: none;
+        width: 36.532771%;
+        background-color: rgb(185, 11, 11);
+        }
+
+    #box7 {
+        float: left;
+        height: 188px;
+        margin-left: 0.03777624%;
+        margin-top: 63px;
+        clear: none;
+        width: 31.717874%;
+        background-color: rgb(20, 0, 255);
+        }
+
+/*---------Free Play---------*/
+</style>
+
+    </head>
+    <body>
+
+    <div class="navigation">
+        <ul>
+            <li class="homeBtn">Home</li>
+            <li class="projectsBtn">Projects</li>
+            <li class="aboutBtn">About</li>
+            <li class="contactBtn">Contact</li>
+        </ul>        
+    </div>
+
+  <div id="primaryContainer" class="primaryContainer clearfix">
+               <div id="box" class="clearfix">
+       </div>
+       <div id="box1" class="clearfix">
+       </div>
+       <div id="box2" class="clearfix">
+       </div>
+       <div id="box3" class="clearfix">
+       </div>
+       <div id="box4" class="clearfix">
+       </div>
+       <div id="box5" class="clearfix">
+       </div>
+       <div id="box6" class="clearfix">
+       </div>
+       <div id="box7" class="clearfix">
+       </div>
+
+    </div>   
+</body>  
